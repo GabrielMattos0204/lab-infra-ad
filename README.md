@@ -97,7 +97,7 @@ Em `imagens/`: primeira execução com `OK`, segunda com `SKIP`, ACL com a deleg
 - Um único controlador de domínio, sem replicação
 - GPO criada manualmente, não pelo script
 - Teste de logon feito no próprio DC, sem máquina cliente dedicada
-- Delegação validada por ACL e `gpresult`, sem teste funcional de redefinição pelo usuário de help desk
+- Delegação validada funcionalmente: usuário de help desk redefiniu senha dentro do escopo e recebeu acesso  negado fora dele
 - Sem PKI, sem backup real, sem segundo DC
 - Licença de avaliação de 180 dias
 
