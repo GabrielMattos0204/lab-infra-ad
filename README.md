@@ -103,7 +103,7 @@ Em `imagens/`: primeira execução com `OK`, segunda com `SKIP`, ACL com a deleg
 
 ## Problemas encontrados
 
-Ver [docs/problemas.md](docs/problemas.md): dez ocorrências reais com sintoma, causa e correção.
+Ver [docs/problemas.md](docs/problemas.md): onze ocorrências reais com sintoma, causa e correção.
 
 ## Autor
 
