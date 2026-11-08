@@ -70,3 +70,7 @@ Grupos antigos que precisaram ser removidos da política: `GRP_Financeiro`, `GRP
 **Correção:** atualizar "Allow log on locally" na Default Domain Controllers Policy, substituindo os grupos antigos por `GG_Financeiro`, `GG_TI` e `GG_Operacao`, seguido de `gpupdate /force`.
 
 **Lição:** reconstruir ambiente quebra referências. Política de direito de logon aponta para grupo, e grupo apagado não cobre ninguém.
+
+**Complementação:** o grupo `GG_HelpDesk` também precisou ser incluído em "Allow log on locally". O usuário de teste estava apenas nesse grupo, não no `GG_TI`, e por isso o logon continuava negado mesmo após a correção dos grupos antigos.
+
+**Segunda lição:** direito de logon se concede a todos os grupos que precisam entrar na máquina, e o usuário de teste tem que estar no grupo certo. Grupo existir não basta; o vínculo é que vale.
