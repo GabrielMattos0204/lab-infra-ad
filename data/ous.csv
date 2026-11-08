@@ -1,0 +1,10 @@
+﻿Nome;Pai
+Corporativo;OU=LAB,DC=lab,DC=local
+Costa_Pinto;OU=LAB,DC=lab,DC=local
+Usuarios;OU=Corporativo,OU=LAB,DC=lab,DC=local
+Usuarios;OU=Costa_Pinto,OU=LAB,DC=lab,DC=local
+TI;OU=Usuarios,OU=Corporativo,OU=LAB,DC=lab,DC=local
+Financeiro;OU=Usuarios,OU=Corporativo,OU=LAB,DC=lab,DC=local
+Operacao;OU=Usuarios,OU=Costa_Pinto,OU=LAB,DC=lab,DC=local
+Grupos_Seguranca;OU=LAB,DC=lab,DC=local
+Computadores;OU=LAB,DC=lab,DC=local
